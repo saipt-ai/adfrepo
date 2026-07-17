@@ -1,0 +1,16 @@
+{
+	"name": "DestinationDataset_1sk",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabaseLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "tblSalesDataFromBlob"
+		}
+	}
+}
